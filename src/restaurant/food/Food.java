@@ -8,6 +8,7 @@ public class Food {
 
     private ArrayList<Topping> toppings = new ArrayList<>();
 
+
     public void displayInfo() {
         System.out.println(this.name + " - $" + this.price);
 
@@ -23,10 +24,10 @@ public class Food {
         return this.price;
     }
 
+
     public void addTopping(Topping topping) {
         toppings.add(topping);
         this.price += topping.getPrice();
-        this.name += " + " + topping.getName();
     }
 
     

@@ -35,4 +35,9 @@ public class Drink extends Food {
         }
     }
 
+    @Override
+    public void addTopping(Topping topping) {
+        System.out.println("You cannot add toppings to a drink.");
+    }
+
 }

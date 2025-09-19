@@ -1,0 +1,42 @@
+# Compiled class files
+*.class
+
+# Jar files
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/MavenWrapperDownloader.java
+
+# Gradle
+.gradle/
+/build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+build/
+
+# Logs and temporary files
+*.log
+*.bak
+*~
+#*#
+
+# Operating System files
+.DS_Store
+Thumbs.db

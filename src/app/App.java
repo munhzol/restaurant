@@ -8,7 +8,6 @@ import restaurant.food.Pizza;
 import restaurant.food.Sub;
 import restaurant.food.Topping;
 
-
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -27,6 +26,7 @@ public class App {
 
         Food drink1 = new Drink("coke");
         Food drink2 = new Drink("sprite");
+        drink2.addTopping(new Topping("beef"));
 
         order.addItem(burger1);
         order.addItem(pizza1);
