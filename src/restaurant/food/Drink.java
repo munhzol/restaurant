@@ -13,7 +13,7 @@ public class Drink extends Food {
 
         switch(name) {
             case "coke":
-                this.name = "Cola";
+                this.name = "Coca Cola";
                 this.price = priceCola;
                 break;
             case "sprite":
@@ -37,7 +37,7 @@ public class Drink extends Food {
 
     @Override
     public void addTopping(Topping topping) {
-        System.out.println("You cannot add toppings to a drink.");
+        System.out.println("!!!You cannot add toppings to a drink.!!!");
     }
 
 }

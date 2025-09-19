@@ -29,5 +29,9 @@ public class Pizza extends Food {
 
     }
 
+    public String getName() {
+        return "Pizza: " + this.name;
+    }
+
 
 }

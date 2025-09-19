@@ -11,6 +11,7 @@ public class Order {
     public void addItem(Food item) {
         items.add(item);
         totalPrice += item.getPrice();
+        System.out.println(item.getName() + " added to the order.");
     }
 
     public void displayOrder() {
