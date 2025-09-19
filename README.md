@@ -1,18 +1,25 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## A java programm test
 
-## Folder Structure
+prints order and calculate total
 
-The workspace contains two folders by default, where:
+Example 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+----------------------
+Order Summary:
+----------------------
+Big Burger - $4.0
+Medium Pizza + Onion + Cheese + Beef - $14.0
+ + Onion - $1.0
+ + Cheese - $1.0
+ + Beef - $2.0
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Chicken Sub - $5.0
+Small Burger + Cheese - $3.0
+ + Cheese - $1.0
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Cola - $8.0
+Sprite - $8.0
+----------------------
+Total Price: $42.0

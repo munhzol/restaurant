@@ -35,11 +35,4 @@ public class Drink extends Food {
         }
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
 }
